@@ -1,0 +1,6 @@
+A Befunge interpreter written in Ruby.
+
+This was written a semester or two ago as an exploration of Ruby.
+
+Also included here are two Befunge test scripts; a hello world script and a
+simple 4-function integer RPN calculator.

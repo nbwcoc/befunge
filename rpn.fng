@@ -1,0 +1,28 @@
+>>~:"+"->v
+^p v-"-":_995++991++0pv        note that in the below the stack is in the wrong order
+^+v_955++911++1p>>>>>>>999993+++++\-999++995++gp995++9991+++g1+v
+^9:"*"-v             ^|<    vp++499+97-1g++499+79p+++1999++599<<
+^7v"/":_955++911++2p>^v^    9
+^+->>>>>v            ^vg    7
+^+  v+19_955++911++3p^v+    +
+^9 v_955++911++4p>>>>^v^+499<
+^9 9v<<<<<<<<<<<<<<<<<<
+^4 9v
+^+ 4v
+^1 +v  Right now this will fill up the accumulator infinitely. TODO: accumulate
+^g +v  and put on the stack, then check the current operation
+^+ 7v
+^9 vvThis is a neat little script in Befunge that works as a 4-function RPN
+^^<<vcalculator. This calculator assumes the new line character is ASCII code
+^<<<<10 (decimal). Note that this only work on ints.
+   
+   Beneath this line is where I am storing variables:
+   current operation: (23,20)
+   accumulated value: (23,21)
+   stack length: (16,22)
+   stack pointer: (17,23)
+   the entire line following is the stack (25):
+   
+   the entire line following is the accumulator (27):
+   
+   accumulator pointer: (23,28)
